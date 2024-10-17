@@ -3,9 +3,8 @@
 This project demonstrates a creative circular pre-loader animation using HTML and CSS. The loader consists of three concentric circles that spin and change border colors, creating a visually appealing loading effect.
 
 ## Project Preview
+![17291710754239165540726887824014](https://github.com/user-attachments/assets/00dfc180-a432-41c0-9a2f-1ff0f1e86ce5)
 
-![Project Preview](URL-to-screenshot-or-gif)  
-*(Replace with a screenshot or GIF of your project)*
 
 ## Features
 - Three concentric circles with dashed borders
