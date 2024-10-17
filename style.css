@@ -1,1 +1,118 @@
+*{
+
+    margin: 0;
+
+    text-decoration: none;
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background: black;
+
+    height: 100vh;
+
+    background-position: center;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    max-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.loader{
+
+    z-index: 1;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: none;
+
+    width: 70px;
+
+    height: 70px;
+
+    position: relative;
+
+    border: 5px dashed;
+
+    padding: 15px;
+
+    border-radius: 50%;
+
+    animation: spin 1s linear alternate infinite;
+
+}
+
+.loader2{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: none;
+
+    width: 100%;
+
+    height: 100%;
+
+    padding: 20px;
+
+    border: 4px dashed;
+
+    border-radius: 50%;
+
+    animation: spin 1s ease-out alternate-reverse infinite;
+
+}
+
+.loader3{
+
+    background: none;
+
+    width: 100%;
+
+    height: 100%;
+
+    padding: 10px;
+
+    border: 4px dashed;
+
+    border-radius: 50%;
+
+    animation: spin 1s linear alternate infinite; 
+
+}
+
+@keyframes spin {
+
+    0%{border-color: #ec2424;}
+
+    25%{border-color: #e0f006;}
+
+    50%{border-color: #16ec93;}
+
+    75%{border-color: #16c1ec;}
+
+    100%{transform: rotate(360deg); border-color: #ffffff;}
+
+}
+
+
 
